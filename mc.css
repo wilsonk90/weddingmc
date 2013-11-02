@@ -1,0 +1,122 @@
+@font-face
+{
+font-family: myTitleFont;
+src: url(fonts/Champagne_Limousines.ttf);
+}
+
+* {
+	font-family: myTitleFont;
+	background-color: White;
+	border: 1px dashed Red;
+}
+
+.header {
+		position: fixed;
+		background-color: Black;
+		width: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+}
+
+/*The first type of positioning is absolute positioning. When an element is set to position: absolute, it's then positioned in relation to the first parent element it has that doesn't have position: static. If there's no such element, the element with position: absolute gets positioned relative to <html>*/
+
+h1 {
+	display: block;
+	font-size: 40px;
+	padding-left: 20px;
+	float: left;
+	font-style: bold;
+	color: White;
+	letter-spacing: 5px;
+	background-color: black;
+}
+
+.navigation{
+	float: right;
+	background-color: Black;
+}
+
+#navitem {
+	display: inline-block;
+	float: left;
+	position: relative;
+	padding: 20px;
+	font-size: 22px;
+	color: White;
+	background-color: Black;
+	letter-spacing: 5px;
+}
+
+#navitem:hover
+{ 
+	text-decoration: underline;
+}
+
+@media all and (max-width: 1266px) {
+	ul {
+		margin-left:auto;
+		margin-right:auto;
+		width: 1000px;
+		float: none;
+	}
+	.sections {
+		top: 300px;
+	}
+
+	h1 {
+		width: 100%;
+		text-align: center;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom: -10px;
+	}
+}
+
+h2 {
+		font-style: bold;
+		font-size: 36px;
+}
+
+.sections {
+		margin-top: 100px;
+		text-align: center;
+		display: inline-block;
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+}
+
+.odd {
+	background-color: #DADDDD;
+	padding: 10px;
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+}
+
+.even {
+	padding: 10px;
+	left: 0px;	
+	right: 0px;
+}
+
+p {
+	line-height: 150%;	
+	font-size: 20px;
+}
+
+.odd p {
+	background-color: #DADDDD;
+	}
+.odd h2 {
+	background-color: #DADDDD;	
+	}
+}
+
+#footer {
+		border-top: 1px dotted Black;
+		padding-top: 50px;
+		display: block;
+		margin-top: 50px;
+}
