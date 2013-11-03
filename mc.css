@@ -7,7 +7,6 @@ src: url(fonts/Champagne_Limousines.ttf);
 * {
 	font-family: myTitleFont;
 	background-color: White;
-	border: 1px dashed Red;
 }
 
 .header {
@@ -23,7 +22,7 @@ src: url(fonts/Champagne_Limousines.ttf);
 
 h1 {
 	display: block;
-	font-size: 40px;
+	font-size: 32px;
 	padding-left: 20px;
 	float: left;
 	font-style: bold;
@@ -45,7 +44,8 @@ h1 {
 	font-size: 22px;
 	color: White;
 	background-color: Black;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
+	margin-top: -10px;
 }
 
 #navitem:hover
@@ -87,9 +87,15 @@ h2 {
 		margin-left: auto;
 }
 
+.image {
+		margin-top: -20px;
+		width: 110%;
+		margin-left: -10px;
+}
+
 .odd {
 	background-color: #DADDDD;
-	padding: 10px;
+	padding: 5px;
 		width: 100%;
 		margin-right: auto;
 		margin-left: auto;
