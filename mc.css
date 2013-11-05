@@ -5,7 +5,7 @@ src: url(fonts/Champagne_Limousines.ttf);
 }
 
 * {
-	font-family: myTitleFont;
+	font-family: Arial;
 	background-color: White;
 }
 
@@ -88,7 +88,7 @@ h2 {
 }
 
 .image {
-		margin-top: -20px;
+		margin-top: -23px;
 		width: 110%;
 		margin-left: -10px;
 }
